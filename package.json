@@ -1,0 +1,20 @@
+{
+  "name": "crypto-hamster-nftz",
+  "version": "1.0.0",
+  "description": "A satirical NFT marketplace for hamsters - by blureh",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd frontend && npm run dev",
+    "server": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {},
+  "keywords": ["nft", "crypto", "hamster", "parody", "satirical"],
+  "author": "blureh",
+  "license": "MIT"
+}

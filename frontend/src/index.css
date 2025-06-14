@@ -1,0 +1,94 @@
+/* Additional 90s styling because we're going full retro */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Comic Neue', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  border: 3px solid #fff;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  font-family: 'Comic Neue', cursive;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 3px solid #ff00ff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ff00ff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Comic Neue', cursive;
+}
+
+.error {
+  color: #ff0000;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.success {
+  color: #00ff00;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .card {
+    margin: 10px 0;
+  }
+  
+  .btn {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+}
